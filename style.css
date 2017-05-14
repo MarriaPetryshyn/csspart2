@@ -1,6 +1,49 @@
 body {
   background-color: #b8b8b8;
   font-size: 13px;
-  line-height: 13px;
+  line-height: 18px;
   color: #333;
+}
+#content {
+  width: 800px;
+  padding: 20px 30px;
+  background-color: #fff;
+}
+h1 {
+  font-size: 26px;
+  line-height: 30px;
+  color: #333;
+  font-weight: normal;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+h2{
+  font-size: 36px;
+  line-height: 46px;
+  color: #333;
+  font-weight: normal;
+  font-style: italic;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.fixed {
+  position: fixed;
+  top: 20px;
+  right: 0px;
+  width: 200px;
+  padding: 20px;
+  font-style:italic;
+  background-color: #666;
+  color: #fff;
+}
+#puzzle{
+  position: relative;
+  border: 5px solid #333;
+  margin: 0 auto;
+  background: url("img/v6/v6-watermark.jpg") no-repeat 0 0;
+  width: 600px;
+  height: 449px;
+}
+#puzzle img{
+  position: absolute;
 }
